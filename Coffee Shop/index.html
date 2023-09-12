@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coffee Shop Website</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+    <header class="header">
+        <section class="flex">
+            <a href="#home" class="logo"><img src="images/logo.jpg" alt="Logo"></a>
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#team">team</a>
+                <a href="#contact">contact</a>
+            </nav>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+    </header>
+
+    <div class="home-bg">
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Coffee Day</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, dolorem nulla quas doloremque mollitia assumenda.</p>
+                <a href="#about" class="btn">about us</a>
+            </div>
+        </section>
+    </div>
+    
+    <section class="about" id="about">
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+        <div class="content">
+            <h3>A cup of coffee is perfect to begin your day</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quo quibusdam culpa, itaque accusantium molestias inventore vero debitis provident assumenda quidem ipsum iure at animi quod non, architecto sequi illo!</p>
+            <a href="#menu" class="btn">our menu</a>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="heading">
+            <img src="images/heading-img.jpg" alt="heading">
+            <h3>popular menu</h3>
+        </div>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/menu-1.png" alt="menu-1">
+                <h3>regular coffee</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-2.png" alt="menu-2">
+                <h3>cappuccino</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-3.png" alt="menu-3">
+                <h3>black coffee</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-4.png" alt="menu-4">
+                <h3>mocha coffee</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-5.png" alt="menu-5">
+                <h3>latte espresso</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-6.png" alt="menu-6">
+                <h3>Love heart coffee</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="team" id="team">
+        <div class="heading">
+            <img src="images/heading-img.jpg" alt="heading">
+            <h3>our team</h3>
+        </div>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/our-team.png" alt="team member">
+                <h3>john doe</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/our-team.png" alt="team member">
+                <h3>john doe</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/our-team.png" alt="team member">
+                <h3>john doe</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/our-team.png" alt="team member">
+                <h3>john doe</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/our-team.png" alt="team member">
+                <h3>john doe</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/our-team.png" alt="team member">
+                <h3>john doe</h3>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <img src="images/heading-img.jpg" alt="heading">
+            <h3>contact us</h3>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/contact-img.png" alt="contact-us">
+            </div>
+            <form action="#contact" method="post">
+                <h3>book a table</h3>
+                <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
+
+                <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+
+                <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests" min="0" max="99" onkeypress="if(this.value.length == 2) return false">
+
+                <input type="submit" name="send" value="send message" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>our email</h3>
+                <p>coffeeday@gmail.com</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <p>07:00am to 09:00pm</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>shop location</h3>
+                <p>banglore, india - 560068</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>our number</h3>
+                <p>+123-456-7890</p>
+                <p>+111-222-3334</p>
+            </div>
+
+        </div>
+
+        <div class="credit"> &copy; copyright @ 2023 by <span>Coffee Day</span> | all rights reserved! </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
